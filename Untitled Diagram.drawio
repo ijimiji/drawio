@@ -1,9 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T21:24:27.511Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" version="24.3.1" etag="2jpheNbl8aaki0jB6BI0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T21:29:42.368Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="0zhjBKj3rn_CxoIg6RZL" version="24.3.1" type="github">
   <diagram name="Page-1" id="Oq18xSwXzY9K0h1a4IiR">
-    <mxGraphModel>
+    <mxGraphModel dx="1686" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWIKAPKknOpFxrSL0NYB-1" target="UWIKAPKknOpFxrSL0NYB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-11" value="Begin TX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWIKAPKknOpFxrSL0NYB-10">
+          <mxGeometry x="-0.0929" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWIKAPKknOpFxrSL0NYB-1" target="UWIKAPKknOpFxrSL0NYB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-14" value="Commit TX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWIKAPKknOpFxrSL0NYB-12">
+          <mxGeometry x="-0.0786" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-1" value="Gateway Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-7" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWIKAPKknOpFxrSL0NYB-2" target="UWIKAPKknOpFxrSL0NYB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-17" value="&lt;div&gt;Prepare&lt;/div&gt;&lt;div&gt;Commit&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWIKAPKknOpFxrSL0NYB-7">
+          <mxGeometry x="0.0619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UWIKAPKknOpFxrSL0NYB-2" target="UWIKAPKknOpFxrSL0NYB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-15" value="&lt;div&gt;Prepare&lt;/div&gt;&lt;div&gt;Commit&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWIKAPKknOpFxrSL0NYB-8">
+          <mxGeometry x="0.022" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UWIKAPKknOpFxrSL0NYB-2" target="UWIKAPKknOpFxrSL0NYB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-18" value="&lt;div&gt;Prepare&lt;/div&gt;&lt;div&gt;Commit&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWIKAPKknOpFxrSL0NYB-9">
+          <mxGeometry x="0.0571" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-2" value="DB Coordinator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-4" value="DB A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-5" value="&lt;div&gt;DB B&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWIKAPKknOpFxrSL0NYB-6" value="DB C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
